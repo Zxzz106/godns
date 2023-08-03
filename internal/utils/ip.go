@@ -41,10 +41,6 @@ func GetIPFromInterface(configuration *settings.Settings) (string, error) {
 			continue
 		}
 
-		if ip.IsPrivate() {
-			continue
-		}
-
 		if isIPv4(ip.String()) {
 			if strings.ToUpper(configuration.IPType) != IPV4 {
 				continue
