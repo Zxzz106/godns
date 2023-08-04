@@ -3,7 +3,7 @@ package notification
 import (
 	"errors"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 
 	"github.com/bwmarrin/discordgo"
 )

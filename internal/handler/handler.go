@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TimothyYe/godns/internal/provider"
+	"github.com/Zxzz106/godns/internal/provider"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
-	"github.com/TimothyYe/godns/pkg/lib"
-	"github.com/TimothyYe/godns/pkg/notification"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
+	"github.com/Zxzz106/godns/pkg/lib"
+	"github.com/Zxzz106/godns/pkg/notification"
 )
 
 var (

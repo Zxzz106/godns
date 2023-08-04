@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 )
 
 // CheckSettings check the format of settings.

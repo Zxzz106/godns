@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/TimothyYe/godns/internal/manager"
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/manager"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
 
 	log "github.com/sirupsen/logrus"
 

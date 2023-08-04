@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	dnsResolver "github.com/TimothyYe/godns/pkg/resolver"
+	"github.com/Zxzz106/godns/internal/settings"
+	dnsResolver "github.com/Zxzz106/godns/pkg/resolver"
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 )

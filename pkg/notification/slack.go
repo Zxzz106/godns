@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
 )
 
 type SlackNotification struct {

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 )
 
 func TestResponseToJSON(t *testing.T) {

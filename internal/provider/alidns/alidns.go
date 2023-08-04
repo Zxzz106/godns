@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/utils"
 )
 
 const (

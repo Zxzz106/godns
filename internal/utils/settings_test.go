@@ -3,7 +3,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 )
 
 func TestCheckSettings(t *testing.T) {

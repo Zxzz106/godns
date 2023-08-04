@@ -11,7 +11,7 @@ import (
 	"golang.org/x/net/proxy"
 	"golang.org/x/oauth2"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 )
 
 func CreateHTTPClient(conf *settings.Settings) (*http.Client, error) {

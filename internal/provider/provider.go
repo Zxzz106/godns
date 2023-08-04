@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 )
 
 type IDNSProvider interface {

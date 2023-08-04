@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
 	"github.com/ovh/go-ovh/ovh"
 	log "github.com/sirupsen/logrus"
 )

@@ -9,18 +9,18 @@
 
 [![Apache licensed][9]][10] [![Docker][3]][4] [![Go Report Card][11]][12] [![Cover.Run][15]][16] [![GoDoc][13]][14]
 
-[3]: https://img.shields.io/docker/image-size/timothyye/godns/latest
-[4]: https://hub.docker.com/r/timothyye/godns
+[3]: https://img.shields.io/docker/image-size/Zxzz106/godns/latest
+[4]: https://hub.docker.com/r/Zxzz106/godns
 [9]: https://img.shields.io/badge/license-Apache-blue.svg
 [10]: LICENSE
-[11]: https://goreportcard.com/badge/github.com/timothyye/godns
-[12]: https://goreportcard.com/report/github.com/timothyye/godns
-[13]: https://godoc.org/github.com/TimothyYe/godns?status.svg
-[14]: https://godoc.org/github.com/TimothyYe/godns
+[11]: https://goreportcard.com/badge/github.com/Zxzz106/godns
+[12]: https://goreportcard.com/report/github.com/Zxzz106/godns
+[13]: https://godoc.org/github.com/Zxzz106/godns?status.svg
+[14]: https://godoc.org/github.com/Zxzz106/godns
 [15]: https://img.shields.io/badge/cover.run-88.2%25-green.svg
-[16]: https://cover.run/go/github.com/timothyye/godns
+[16]: https://cover.run/go/github.com/Zxzz106/godns
 
-[GoDNS](https://github.com/TimothyYe/godns) is a dynamic DNS (DDNS) client tool. It is a rewrite in [Go](https://golang.org) of my early [DynDNS](https://github.com/TimothyYe/DynDNS) open source project.
+[GoDNS](https://github.com/Zxzz106/godns) is a dynamic DNS (DDNS) client tool. It is a rewrite in [Go](https://golang.org) of my early [DynDNS](https://github.com/Zxzz106/DynDNS) open source project.
 
 ---
 
@@ -111,7 +111,7 @@
 [hetzner]: https://hetzner.com/
 [ovh]: https://www.ovh.com
 
-Tip: You can follow this [issue](https://github.com/TimothyYe/godns/issues/76) to view the current status of DDNS for root domains.
+Tip: You can follow this [issue](https://github.com/Zxzz106/godns/issues/76) to view the current status of DDNS for root domains.
 
 ## Supported Platforms
 
@@ -148,7 +148,7 @@ go mod download     # get dependencies
 go build            # build
 ```
 
-You can also download a compiled binary from the [releases](https://github.com/TimothyYe/godns/releases).
+You can also download a compiled binary from the [releases](https://github.com/Zxzz106/godns/releases).
 
 ## Usage
 
@@ -466,7 +466,7 @@ For DuckDNS, the only thing needed is to provide the `token`, config 1 default d
   "domains": [
     {
       "domain_name": "ddns.net",
-      "sub_domains": ["timothyye6"]
+      "sub_domains": ["Zxzz1066"]
     }
   ],
   "ip_type": "IPv4",
@@ -743,7 +743,7 @@ Emails are sent over [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_P
 
 Each time the IP changes, you will receive an email like that:
 
-<img src="https://github.com/TimothyYe/godns/blob/master/assets/snapshots/mail.png?raw=true" />
+<img src="https://github.com/Zxzz106/godns/blob/master/assets/snapshots/mail.png?raw=true" />
 
 #### Telegram
 
@@ -1000,17 +1000,17 @@ Note: when the program stops, it will not be restarted.
 
 Available docker registries:
 
-- https://hub.docker.com/r/timothyye/godns
-- https://github.com/TimothyYe/godns/pkgs/container/godns
+- https://hub.docker.com/r/Zxzz106/godns
+- https://github.com/Zxzz106/godns/pkgs/container/godns
 
-Visit https://hub.docker.com/r/timothyye/godns to fetch the latest docker image.  
+Visit https://hub.docker.com/r/Zxzz106/godns to fetch the latest docker image.  
 With `/path/to/config.json` your local configuration file, run:
 
 ```bash
 docker run \
 -d --name godns --restart=always \
 -v /path/to/config.json:/config.json \
-timothyye/godns:latest
+Zxzz106/godns:latest
 ```
 
 To run it with a `YAML` config file:
@@ -1021,7 +1021,7 @@ docker run \
 -e CONFIG=/config.yaml \
 --restart=always \
 -v /path/to/config.yaml:/config.yaml \
-timothyye/godns:latest
+Zxzz106/godns:latest
 ```
 
 ### As a Windows service

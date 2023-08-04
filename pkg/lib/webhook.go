@@ -8,8 +8,8 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
 	log "github.com/sirupsen/logrus"
 )
 

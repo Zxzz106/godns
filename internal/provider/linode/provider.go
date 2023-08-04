@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/TimothyYe/godns/internal/settings"
-	"github.com/TimothyYe/godns/internal/utils"
+	"github.com/Zxzz106/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/utils"
 	"github.com/linode/linodego"
 	log "github.com/sirupsen/logrus"
 )

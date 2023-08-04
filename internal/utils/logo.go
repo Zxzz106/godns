@@ -12,7 +12,7 @@ var (
  ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 GoDNS %s
-https://github.com/TimothyYe/godns
+https://github.com/Zxzz106/godns
 
 `
 )

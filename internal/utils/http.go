@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 
 	log "github.com/sirupsen/logrus"
 

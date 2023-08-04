@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/TimothyYe/godns/internal/handler"
-	"github.com/TimothyYe/godns/internal/provider"
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/handler"
+	"github.com/Zxzz106/godns/internal/provider"
+	"github.com/Zxzz106/godns/internal/settings"
 	log "github.com/sirupsen/logrus"
 )
 

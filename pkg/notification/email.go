@@ -1,7 +1,7 @@
 package notification
 
 import (
-	"github.com/TimothyYe/godns/internal/settings"
+	"github.com/Zxzz106/godns/internal/settings"
 	log "github.com/sirupsen/logrus"
 
 	"gopkg.in/gomail.v2"
