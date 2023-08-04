@@ -49,6 +49,9 @@ func GetIPFromInterface(configuration *settings.Settings) (string, error) {
 			if strings.ToUpper(configuration.IPType) != IPV6 {
 				continue
 			}
+			if ip.IsPrivate() {
+				continue
+			}
 		}
 
 		if ip.String() != "" {
